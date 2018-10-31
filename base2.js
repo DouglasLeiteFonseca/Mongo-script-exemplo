@@ -170,3 +170,11 @@ pts = [
 db.pessoas3.insert(pts);
 
 print("Total de registros 3: "+db.pessoas3.count());
+
+//pegar uma pessoa de um cpf especifico
+//db.pessoas3.find({cpf:"123.123.123-13"}).pretty();
+
+//pegar todos os filhos de um determinado pai
+//db.pessoas3.find({cpf_pai:"123.123.123-12"}).pretty();
+
+
